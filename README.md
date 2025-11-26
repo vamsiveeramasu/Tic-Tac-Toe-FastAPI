@@ -65,14 +65,6 @@ Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 Open the built-in Swagger interface:
 http://127.0.0.1:8000/docs
 
-
-This page allows you to:
-
-✔ Create a new game
-✔ Make moves
-✔ View move history
-✔ View all games
-
 Or test using curl:
 curl -X POST http://127.0.0.1:8000/games
 curl http://127.0.0.1:8000/games
