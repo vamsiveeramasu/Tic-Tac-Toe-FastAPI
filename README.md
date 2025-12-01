@@ -234,26 +234,6 @@ Kill it:
 
 kill -9 <PID>
 
-❗ GitHub not accepting password
-
-GitHub disabled password auth.
-
-Use SSH:
-
-ssh-keygen -t ed25519 -C "you@example.com"
-ssh-add ~/.ssh/id_ed25519
-pbcopy < ~/.ssh/id_ed25519.pub
-
-
-Add at:
-
-GitHub Settings → SSH and GPG keys
-
-
-Set SSH remote:
-
-git remote set-url origin git@github.com:<user>/<repo>.git
-
 ❗ White screen in React
 
 Check browser console:
