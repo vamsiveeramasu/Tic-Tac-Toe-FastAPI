@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+.build/
+
+# Env / secrets
+.env
+.env.local
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Specific DB file
+tictactoe.db
