@@ -28,31 +28,6 @@ A complete full-stack Tic Tac Toe game featuring:
 - Vite
 - Tailwind CSS
 
----
-
-# 📁 Project Structure
-
-EthycaCodingChallenge/
-│
-├── tictactoe.py # FastAPI backend (uses SQLite)
-├── tictactoe.db # SQLite file (auto-created)
-├── .venv/ # Python virtual environment (ignored)
-│
-├── tic-tac-toe-ui-ts/ # Frontend (React + TypeScript + Tailwind)
-│ ├── src/
-│ │ ├── App.tsx
-│ │ ├── api.ts
-│ │ ├── main.tsx
-│ │ └── index.css
-│ ├── package.json
-│ ├── tailwind.config.js
-│ └── postcss.config.js
-│
-└── README.md
-
-
----
-
 # 🚀 Getting Started (COMPLETE SETUP)
 
 Below is the **full setup guide** for backend + frontend.
